@@ -14,7 +14,7 @@ UI参考：taptap
 
 接口采用 omdbapi、imdbapi 的公开 API
 
-技术栈：vite + react + pnpm + ts + tailwind + zustand  + immer + pwa
+技术栈：vite + react + pnpm + ts + tailwind + axios  + zustand  + immer + pwa
 
 
 
@@ -22,11 +22,14 @@ UI参考：taptap
 
 - [x] vite 初始化工程
 - [ ] 接入 react-router6，做好页面路由
+- [ ] 配色决定
 - [ ] 开始写首页
 - [ ] css 采用 css modules
 - [ ] 接入 动画库
 - [ ] 接入 svg
+- [ ] axios 接入接口
 - [ ] 接入 zustand
 - [ ] 接入 immer
 - [ ] PWA
+- [ ] 制作 logo
 
