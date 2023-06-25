@@ -21,10 +21,13 @@ UI参考：taptap
 ## 开发计划
 
 - [x] vite 初始化工程
-- [ ] 接入 react-router6，做好页面路由
+- [x] 接入 react-router6，做好页面路由
+- [x] CSS 初始化
+  - [x] 字体解决方案（https://zenozeng.github.io/fonts.css/）
+  - [x] CSS reset （normalize.css）
+  - [x] 采用 css modules
 - [ ] 配色决定
 - [ ] 开始写首页
-- [ ] css 采用 css modules
 - [ ] 接入 动画库
 - [ ] 接入 svg
 - [ ] axios 接入接口

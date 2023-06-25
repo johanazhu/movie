@@ -1,6 +1,8 @@
+import style from "./Home.module.scss";
+
 const Home = () => {
   return (
-    <div>
+    <div className={style.wrapper}>
       <h1>Home</h1>
     </div>
   );
