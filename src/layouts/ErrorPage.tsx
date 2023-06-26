@@ -1,9 +1,4 @@
-import {
-  isRouteErrorResponse,
-  useRouteError,
-  useLocation,
-  Navigate,
-} from "react-router-dom";
+import { useRouteError } from "react-router-dom";
 
 export function RootErrorBoundary() {
   let error = useRouteError() as Error;

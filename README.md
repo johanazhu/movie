@@ -27,8 +27,9 @@ UI参考：taptap
   - [x] CSS reset （normalize.css）
   - [x] 采用 css modules
 - [ ] 配色决定
-  - [ ] unocss
-  - [ ] 亮/暗色
+  - [x] 布局实现（引入pc、mobile）
+  - [x] 引入 scss 做全局变量控制
+  - [x] 亮/暗色
   - [ ] 加入autoprefixer
 - [ ] 开始写首页
 - [ ] 接入 动画库
