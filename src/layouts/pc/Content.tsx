@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const Content = () => {
   return (
-    <main className="mov__main">
+    <main className="movmov__main">
       <Outlet />
     </main>
   );

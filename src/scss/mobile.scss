@@ -1,0 +1,27 @@
+.movmov__tabbar {
+  display: none;
+  align-items: center;
+  background: #fff;
+  //   background: var(--primary-white);
+  bottom: 0;
+  box-shadow: 0 -0.5px 0 rgba(25, 49, 55, 0.3);
+  box-sizing: border-box;
+  color: #868c92;
+  //   color: var(--gray-06);
+  height: 50px;
+  height: calc(50px + var(--safe-area-inset-bottom));
+  justify-content: space-around;
+  left: 0;
+  padding-bottom: 0;
+  padding-bottom: calc(var(--safe-area-inset-bottom));
+  position: fixed;
+  transition: padding-bottom 0.1s;
+  width: 100%;
+  z-index: 299;
+}
+
+@media only screen and (max-width: 499px) {
+  .movmov__tabbar {
+    display: flex;
+  }
+}
