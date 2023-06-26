@@ -1,0 +1,11 @@
+@import "light";
+@import "dark";
+
+:root {
+  --font-color: brown;
+  --button-color: yellow;
+}
+:root[data-theme="dark"] {
+  --font-color: blue;
+  --button-color: green;
+}

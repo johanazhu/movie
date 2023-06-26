@@ -1,2 +1,8 @@
+// variable
+// @import './variable/index.scss';
+
+// 亮/暗模式
+@import "./theme/index.scss";
+
 @import "./pc.scss";
 @import "./mobile.scss";
