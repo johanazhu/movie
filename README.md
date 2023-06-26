@@ -27,6 +27,8 @@ UI参考：taptap
   - [x] CSS reset （normalize.css）
   - [x] 采用 css modules
 - [ ] 配色决定
+  - [ ] unocss
+  - [ ] 亮/暗色
 - [ ] 开始写首页
 - [ ] 接入 动画库
 - [ ] 接入 svg

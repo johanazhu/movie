@@ -1,5 +1,7 @@
 import { lazy } from "react";
 import { createBrowserRouter, Outlet } from "react-router-dom";
+import Layout from "../layouts";
+import { RootErrorBoundary } from "../layouts/ErrorPage";
 
 const Home = lazy(() => import("../pages/Home"));
 const Genre = lazy(() => import("../pages/Genre"));
@@ -11,10 +13,12 @@ const Search = lazy(() => import("../pages/Search"));
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Layout />,
     children: [
       {
         path: "",
         element: <Outlet />,
+        errorElement: <RootErrorBoundary />,
         children: [
           {
             path: "/",
